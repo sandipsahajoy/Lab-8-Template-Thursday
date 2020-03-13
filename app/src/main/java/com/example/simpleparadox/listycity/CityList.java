@@ -78,5 +78,7 @@ public class CityList {
         return cities.size();
     }
 
-    public void clearCities() { }
+    public void clearCities() {
+        cities.clear();
+    }
 }

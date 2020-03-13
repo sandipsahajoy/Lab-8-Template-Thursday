@@ -20,7 +20,6 @@ class CityListTest {
     @Test
     void testClearCity() {
         CityList cityList = mockCityList();
-
         City city = new City("Calgary", "Alberta");
         cityList.add(city);
         cityList.clearCities();
